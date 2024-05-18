@@ -1,0 +1,74 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5E6DA; /* Background color similar to the mock-up */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.form-container {
+    background-color: #C07B56; /* Form container background color */
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.logo {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #FFFFFF; /* White text for the heading */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Adds space between form elements */
+}
+
+label {
+    margin: 5px 0;
+    color: #FFFFFF; /* White text for labels */
+    text-align: left;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #C07B56; /* Same color as form container */
+    border-radius: 5px;
+    background-color: #F5E6DA; /* Background color of input fields */
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #8B7E6A; /* Button background color */
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #6b4423; /* Darker shade for button hover */
+}
